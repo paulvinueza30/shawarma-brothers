@@ -30,7 +30,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output: "export", // Ensure output is set to 'export' for static export
 };
 
 export default nextConfig;
