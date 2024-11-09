@@ -21,10 +21,7 @@ const nextConfig = {
 
     return config;
   },
-  images: {
-    loader: "default",
-    path: "/",
-  },
+
   reactStrictMode: false,
   typescript: {
     ignoreBuildErrors: true,
