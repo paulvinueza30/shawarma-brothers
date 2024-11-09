@@ -22,8 +22,8 @@ const nextConfig = {
     return config;
   },
   images: {
-    loader: "imgix",
-    path: "",
+    loader: "default",
+    path: "/",
   },
   reactStrictMode: false,
   typescript: {
