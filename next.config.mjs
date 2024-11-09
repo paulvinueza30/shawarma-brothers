@@ -1,4 +1,3 @@
-// next.config.mjs
 import path from "path";
 
 const nextConfig = {
@@ -23,8 +22,8 @@ const nextConfig = {
     return config;
   },
   images: {
-    loader: "imgix",
-    path: "",
+    loader: "default",
+    path: "/",
   },
   reactStrictMode: false,
   typescript: {
