@@ -37,7 +37,7 @@ export function About() {
           </div>
           <div className="relative h-[300px] md:h-auto">
             <Image
-              src="/images/menu/twopeopleSmiling.jpg"
+              src="/images/twopeopleSmiling.jpg"
               alt="Shawarma preparation"
               fill
               style={{ objectFit: "cover" }}

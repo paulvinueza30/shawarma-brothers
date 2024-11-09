@@ -3,11 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
-
-
-const images = [
-  "/images/menu/storeFront.jpg"
-];
+const images = ["/images/storeFront.jpg"];
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -25,8 +21,9 @@ export default function Hero() {
       {images.map((image, index) => (
         <div
           key={image}
-          className={`absolute inset-0 transition-opacity duration-1000 ${index === currentImageIndex ? "opacity-100" : "opacity-0"
-            }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ${
+            index === currentImageIndex ? "opacity-100" : "opacity-0"
+          }`}
         >
           <Image
             src={image}
