@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import Link from "next/link";
 import { Facebook, Instagram } from "lucide-react";
 
@@ -25,7 +27,6 @@ export default function Footer() {
             </p>
           </div>
           <div className="space-y-4 pl-16">
-            {" "}
             {/* Added padding-left to adjust position */}
             <h4 className="text-lg font-medium text-white">Quick Links</h4>
             <ul className="space-y-2">

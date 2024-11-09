@@ -37,7 +37,7 @@ export function About() {
           </div>
           <div className="relative h-[300px] md:h-auto">
             <Image
-              src="/images/menu/twopeopleSmiling.jpg" // Use path relative to the public folder
+              src="/images/menu/twopeopleSmiling.jpg"
               alt="Shawarma preparation"
               fill
               style={{ objectFit: "cover" }}
@@ -56,7 +56,6 @@ export function About() {
               <p className="mb-4">
                 At Shawarma Delight, we&#39;re committed to:
               </p>
-
               <ul className="list-disc list-inside space-y-2">
                 <li>Using only the freshest, highest-quality ingredients</li>
                 <li>Preparing our meats and vegetables daily</li>
