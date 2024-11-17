@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import ModeToggle from "./ui/modetoggle";
+import Image from "next/image";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,11 +20,16 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-white dark:bg-black shadow-md fixed top-0 left-0 w-full z-50 h-24 flex justify-center items-center">
+    <header className="bg-white dark:bg-black shadow-md fixed top-0 left-0 w-full z-50 h-32 flex justify-center items-center">
       <div className="container mx-auto px-4 flex justify-between items-center px-[15px] md:px-[60px]">
         <Link href="/" className="flex items-center space-x-2">
           <span className="text-3xl font-bold text-customRed">
-            Shawarma Brothers
+            {/* Add the image */}
+            <img
+              src="/images/shawarmaBrothersLogo.png"
+              alt="Shawarma Brothers Logo"
+              className="h-28"
+            />
           </span>
         </Link>
 

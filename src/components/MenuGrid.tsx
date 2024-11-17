@@ -8,7 +8,7 @@ const menuItems = [
   { name: "Gyro 2", image: "/images/gyro2.jpg" },
   { name: "Hummus", image: "/images/hummus.jpg" },
   { name: "Orzo", image: "/images/orzo.jpg" },
-  { name: "Rice", image: "images/rice.jpg" },
+  { name: "Rice", image: "/images/rice.jpg" },
   { name: "Salad", image: "/images/salad.jpg" },
   { name: "Sandwich", image: "/images/sandwitch.jpg" },
   { name: "Shawarma", image: "/images/shawerma.png" },
