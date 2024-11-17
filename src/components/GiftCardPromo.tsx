@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function GiftCardPromo() {
   return (
-    <div className="bg-customGrey dark:bg-black py-16">
+    <div className="bg-customGrey dark:bg-black ">
       <div className="container mx-auto px-[15px] md:px-[60px]">
         <div className="flex flex-col md:flex-row items-center justify-between md:space-x-12">
           <div className="md:w-1/2 mb-12 md:mb-0">
@@ -19,23 +19,16 @@ export default function GiftCardPromo() {
               denominations to suit your needs.
             </p>
           </div>
-          <div className="md:w-1/2 relative">
-            <div className="w-full h-[300px] md:h-[400px] relative">
+          <div className="md:w-1/2 relative ">
+            <div className="w-full h-[300px] md:h-[400px] relative overflow-hidden rounded-md">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/images/gift_card_red.png"
                 alt="Shawarma Delight Gift Card"
-                layout="fill"
+                layout="intrinsic"
+                width={560}
+                height={500}
                 objectFit="contain"
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-            <div className="absolute -bottom-4 -left-4 w-32 h-32">
-              <Image
-                src="/placeholder.svg?height=128&width=128"
-                alt="Shawarma Wrap"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full shadow-lg"
+                className="rounded-full"
               />
             </div>
           </div>

@@ -35,12 +35,12 @@ export function About() {
               </CardContent>
             </Card>
           </div>
-          <div className="relative h-[300px] md:h-auto">
+          <div className="relative w-full h-[300px] md:h-[500px]">
             <Image
               src="/images/twopeopleSmiling.jpg"
               alt="Shawarma preparation"
-              fill
-              style={{ objectFit: "cover" }}
+              layout="fill"
+              objectFit="cover"
               className="rounded-lg shadow-lg"
             />
           </div>
