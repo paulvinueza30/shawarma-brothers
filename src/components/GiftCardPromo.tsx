@@ -7,7 +7,7 @@ export default function GiftCardPromo() {
         <div className="flex flex-col md:flex-row items-center justify-between md:space-x-12">
           <div className="md:w-1/2 mb-12 md:mb-0">
             <h2 className="text-customRed text-xl font-semibold mb-2">
-              SHAWARMA DELIGHT GIFT CARDS
+              SHAWARMA BROTHERS GIFT CARDS
             </h2>
             <h3 className="text-4xl md:text-5xl font-bold text-customDRed mb-4">
               THE PERFECT GIFT FOR SHAWARMA LOVERS

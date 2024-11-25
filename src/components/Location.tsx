@@ -16,7 +16,7 @@ export function Location() {
         {/* Location Details */}
         <div className="bg-white dark:bg-black p-6 shadow-lg rounded-lg space-y-6">
           <h2 className="text-2xl font-bold text-customRed">
-            Shawarma Delight
+            Shawarma Brothers
           </h2>
           <div className="flex items-center space-x-3">
             <MapPin className="text-customRed" size={32} />
@@ -34,7 +34,8 @@ export function Location() {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.google.com/maps/dir/?api=1&destination=Shawarma+Brothers+Ohio">
+              href="https://www.google.com/maps/dir/?api=1&destination=Shawarma+Brothers+Ohio"
+            >
               Get Directions
             </a>
           </Button>

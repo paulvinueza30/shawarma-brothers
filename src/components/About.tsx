@@ -9,7 +9,7 @@ export function About() {
     <div className="bg-white dark:bg-black py-12">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold mb-8 text-customRed">
-          About Shawarma Delight
+          About Shawarma Brothers
         </h1>
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div>
@@ -21,10 +21,9 @@ export function About() {
               </CardHeader>
               <CardContent>
                 <p className="mb-4">
-                  Founded in 2010, Shawarma Delight has been serving the most
-                  authentic and delicious shawarma in town for over a decade.
-                  Our journey began with a simple goal: to bring the rich
-                  flavors of Middle Eastern cuisine to our local community.
+                  Shawarma Brothers specializes in shawarma bowls and wraps.
+                  Customers have choice lamb, beef and chicken shawarma made
+                  fresh daily.
                 </p>
                 <p>
                   What started as a small family-owned shop has now grown into a
@@ -54,7 +53,7 @@ export function About() {
             </CardHeader>
             <CardContent>
               <p className="mb-4">
-                At Shawarma Delight, we&#39;re committed to:
+                At Shawarma Brothers, we&#39;re committed to:
               </p>
               <ul className="list-disc list-inside space-y-2">
                 <li>Using only the freshest, highest-quality ingredients</li>
