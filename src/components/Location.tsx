@@ -24,8 +24,9 @@ export function Location() {
           </div>
           <div className="flex items-center space-x-2">
             <Clock className="text-customRed" />
-            <p>Mon-Sat: 11am-10pm, Sun: 12pm-9pm</p>
+            <p>Tue-Sat: 11am-7:30pm, Mon: Closed, Sun: 12pm-4pm</p>
           </div>
+
           <div className="flex items-center space-x-2">
             <Phone className="text-customRed" />
             <p>(234) 334-3996</p>
